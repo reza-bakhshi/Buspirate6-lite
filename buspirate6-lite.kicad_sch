@@ -1,0 +1,517 @@
+(kicad_sch 
+  (version 20260306) 
+  (generator "eeschema") 
+  (generator_version "10.0") 
+  (uuid "1f56410a-eaac-4444-b0f7-cfd3531e22ac") 
+  (paper "A4") 
+  (lib_symbols 
+    (symbol "Mechanical:MountingHole" 
+      (pin_names 
+        (offset 1.016)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (in_pos_files yes) 
+      (duplicate_pin_numbers_are_jumpers no) 
+      (property "Reference" "H" 
+        (at 0 5.08 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "MountingHole" 
+        (at 0 3.175 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Datasheet" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Description" "Mounting Hole without connection" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_keywords" "mounting hole" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_fp_filters" "MountingHole*" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (symbol "MountingHole_0_1" 
+        (circle 
+          (center 0 0) 
+          (radius 1.27) 
+          (stroke 
+            (width 1.27) 
+            (type default)) 
+          (fill 
+            (type none)))) 
+      (embedded_fonts no))) 
+  (text "Microcontroller" 
+    (exclude_from_sim no) 
+    (at 132.08 59.69 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27) 
+        (thickness 0.254) 
+        (bold yes)) 
+      (justify left bottom)) 
+    (uuid "177643b5-01d9-419f-9212-2f44aed2a315")) 
+  (text "Adjustable power \nsupply" 
+    (exclude_from_sim no) 
+    (at 123.19 95.25 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27) 
+        (thickness 0.254) 
+        (bold yes)) 
+      (justify left bottom)) 
+    (uuid "6f8a9429-e0a1-4765-bd1a-417e1728ea12")) 
+  (text "IO buffer" 
+    (exclude_from_sim no) 
+    (at 158.75 93.98 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27) 
+        (thickness 0.254) 
+        (bold yes)) 
+      (justify left bottom)) 
+    (uuid "b4bdb112-dd0d-45c3-9e86-5b804d1d114f")) 
+  (text "Peripherals" 
+    (exclude_from_sim no) 
+    (at 90.17 93.98 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27) 
+        (thickness 0.254) 
+        (bold yes)) 
+      (justify left bottom)) 
+    (uuid "c181dd41-fb46-4a23-a081-4b7606289ec3")) 
+  (symbol 
+    (lib_id "Mechanical:MountingHole") 
+    (at 152.4 116.84 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom no) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-00005fcb6417") 
+    (property "Reference" "H1" 
+      (at 154.94 115.6716 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "MountingHole" 
+      (at 154.94 117.983 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" 
+      (at 152.4 116.84 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 152.4 116.84 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "" 
+      (at 152.4 116.84 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (instances 
+      (project "buspirate6-lite" 
+        (path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac" 
+          (reference "H1") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Mechanical:MountingHole") 
+    (at 152.4 127 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom no) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-00005fcb6e57") 
+    (property "Reference" "H2" 
+      (at 154.94 125.8316 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "MountingHole" 
+      (at 154.94 128.143 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" 
+      (at 152.4 127 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 152.4 127 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "" 
+      (at 152.4 127 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (instances 
+      (project "buspirate6-lite" 
+        (path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac" 
+          (reference "H2") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Mechanical:MountingHole") 
+    (at 171.45 116.84 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom no) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-00005fcb6fec") 
+    (property "Reference" "H3" 
+      (at 173.99 115.6716 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "MountingHole" 
+      (at 173.99 117.983 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" 
+      (at 171.45 116.84 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 171.45 116.84 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "" 
+      (at 171.45 116.84 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (instances 
+      (project "buspirate6-lite" 
+        (path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac" 
+          (reference "H3") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Mechanical:MountingHole") 
+    (at 171.45 127 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom no) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (uuid "00000000-0000-0000-0000-00005fcb72fe") 
+    (property "Reference" "H4" 
+      (at 173.99 125.8316 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "MountingHole" 
+      (at 173.99 128.143 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" 
+      (at 171.45 127 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 171.45 127 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "" 
+      (at 171.45 127 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (instances 
+      (project "buspirate6-lite" 
+        (path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac" 
+          (reference "H4") 
+          (unit 1))))) 
+  (sheet 
+    (at 152.4 83.82) 
+    (size 24.13 19.05) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (stroke 
+      (width 0) 
+      (type solid)) 
+    (fill 
+      (color 0 0 0 0)) 
+    (uuid "00000000-0000-0000-0000-00005f344f30") 
+    (property "Sheetname" "bpu-iobufffer" 
+      (at 152.4 83.1084 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left bottom))) 
+    (property "Sheetfile" "bpu-iobufffer.kicad_sch" 
+      (at 152.4 103.4546 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left top))) 
+    (instances 
+      (project "buspirate6-lite" 
+        (path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac" 
+          (page "5"))))) 
+  (sheet 
+    (at 119.38 85.09) 
+    (size 24.13 19.05) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (stroke 
+      (width 0) 
+      (type solid)) 
+    (fill 
+      (color 0 0 0 0)) 
+    (uuid "00000000-0000-0000-0000-00005f46fad3") 
+    (property "Sheetname" "bpu-current_limiter" 
+      (at 119.38 84.3784 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left bottom))) 
+    (property "Sheetfile" "bpu-current_limiter.kicad_sch" 
+      (at 119.38 104.7246 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left top))) 
+    (instances 
+      (project "buspirate6-lite" 
+        (path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac" 
+          (page "3"))))) 
+  (sheet 
+    (at 120.65 44.45) 
+    (size 38.1 30.48) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (stroke 
+      (width 0) 
+      (type solid)) 
+    (fill 
+      (color 0 0 0 0)) 
+    (uuid "00000000-0000-0000-0000-000060c8ec36") 
+    (property "Sheetname" "micro-rp2040" 
+      (at 120.65 43.7384 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left bottom))) 
+    (property "Sheetfile" "micro-rp2040.kicad_sch" 
+      (at 120.65 75.5146 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left top))) 
+    (instances 
+      (project "buspirate6-lite" 
+        (path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac" 
+          (page "4"))))) 
+  (sheet 
+    (at 85.09 85.09) 
+    (size 21.59 15.24) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (stroke 
+      (width 0) 
+      (type solid)) 
+    (fill 
+      (color 0 0 0 0)) 
+    (uuid "00000000-0000-0000-0000-000060e58ecc") 
+    (property "Sheetname" "IO-expand-595-mux" 
+      (at 85.09 84.3784 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left bottom))) 
+    (property "Sheetfile" "IO-expand-595-mux.kicad_sch" 
+      (at 85.09 100.9146 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left top))) 
+    (instances 
+      (project "buspirate6-lite" 
+        (path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac" 
+          (page "2"))))) 
+  (sheet 
+    (at 172.085 39.37) 
+    (size 23.495 18.415) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (stroke 
+      (width 0.1524) 
+      (type solid)) 
+    (fill 
+      (color 0 0 0 0)) 
+    (uuid "1224fee8-7fb1-4049-86ea-89460334d533") 
+    (property "Sheetname" "leds" 
+      (at 172.085 38.6584 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left bottom))) 
+    (property "Sheetfile" "/home/rez0x61/Projects/electronic/bus-pirate/BusPirate5-hardware/bus_pirate_pcb/6-REV2B/leds.kicad_sch" 
+      (at 172.085 58.3696 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left top))) 
+    (instances 
+      (project "buspirate6-lite" 
+        (path "/1f56410a-eaac-4444-b0f7-cfd3531e22ac" 
+          (page "14"))))) 
+  (sheet_instances 
+    (path "/" 
+      (page "1"))) 
+  (embedded_fonts no))
